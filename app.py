@@ -24,7 +24,7 @@ llm_gpt=ChatOpenAI(
 )
 
 llm_groq=ChatGroq(
-    api_key=os.getenv("GROQ_API_KEY"),
+    api_key="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",
     model='mixtral-8x7b-32768'
 )
 
