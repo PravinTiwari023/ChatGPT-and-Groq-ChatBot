@@ -36,4 +36,4 @@ st.title("Open AI chatbot!!")
 input_text=st.text_input("Ask what you want...")
 
 if input_text:
-    st.write(chain_gpt.invoke({'question':input_text}))
+    st.write(chain_groq.invoke({'question':input_text}))
