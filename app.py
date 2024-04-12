@@ -37,5 +37,5 @@ chain_groq = prompt | llm_groq | output_parser
 st.title("Open AI chatbot!!")
 input_text=st.text_input("Ask what you want...")
 
-if input_text:
+if st.button("LFG!!"):
     st.write(chain_groq.invoke({'question':input_text}))
