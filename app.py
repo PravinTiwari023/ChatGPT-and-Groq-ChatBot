@@ -5,7 +5,8 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-os.environ['OPENAI_API_KEY']=os.getenv('OPEN_AI_API_KEY')
+# We are using open source llm for now
+# os.environ['OPENAI_API_KEY']=os.getenv('OPEN_AI_API_KEY')
 os.environ['LANGCHAIN_TRACING_V2']="true"
 os.environ['LANGCHAIN_API_KEY']=os.getenv('LANGCHAIN_API_KEY')
 
