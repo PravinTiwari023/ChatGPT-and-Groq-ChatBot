@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 # We are using open source llm for now
-# os.environ['OPENAI_API_KEY']=os.getenv('OPEN_AI_API_KEY')
+os.environ['OPENAI_API_KEY']="USE_YOUR_API_KEY"
 os.environ['LANGCHAIN_TRACING_V2']="true"
 os.environ['LANGCHAIN_API_KEY']="ls__167978455811441d9b3ef86b11524f8e"
 
